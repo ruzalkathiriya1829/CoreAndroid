@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/purple"
+    tools:context=".GetInformation">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fill Details and Create Your Resume"
+        android:layout_gravity="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_marginVertical="20dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/edtName"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginHorizontal="20dp"
+                android:hint="Enter Your Full Name"
+                android:background="@drawable/shape"
+                android:inputType="text"
+                android:textSize="20sp"
+                android:padding="10dp"
+                android:textColorHint="@color/white" />
+
+            <EditText
+                android:id="@+id/edtProfession"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginHorizontal="20dp"
+                android:hint="Enter Your Profession"
+                android:inputType="textAutoCorrect"
+                android:background="@drawable/shape"
+                android:textSize="20sp"
+                android:padding="10dp"
+                android:textColorHint="@color/white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fill Contect Details"
+                android:layout_marginHorizontal="20dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:layout_marginTop="20dp" />
+
+            <EditText
+                android:id="@+id/edtGmail"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginVertical="5dp"
+                android:background="@drawable/shape"
+                android:hint="Enter Your E-mail Address"
+                android:inputType="textEmailAddress"
+                android:padding="10dp"
+                android:textColorHint="@color/white"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/edtMobileNo"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginVertical="5dp"
+                android:layout_marginHorizontal="20dp"
+                android:hint="Enter MobileNO"
+                android:inputType="number"
+                android:background="@drawable/shape"
+                android:textSize="20sp"
+                android:padding="10dp"
+                android:textColorHint="@color/white" />
+
+
+            <EditText
+                android:id="@+id/edtAddress"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginVertical="5dp"
+                android:layout_marginHorizontal="20dp"
+                android:hint="Enter Your Address"
+                android:background="@drawable/shape"
+                android:inputType="text"
+                android:textSize="20sp"
+                android:padding="10dp"
+                android:textColorHint="@color/white" />
+
+
+            <TextView
+                android:id="@+id/txtSkills"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Skills (Professional)"
+                android:layout_marginHorizontal="20dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:layout_marginTop="20dp" />
+
+            <CheckBox
+                android:id="@+id/cbWebDesign"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:text="Web design"
+                android:buttonTint="@color/white"/>
+
+            <CheckBox
+                android:id="@+id/cbGraphicsDesign"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:text="Graphics design"
+                android:buttonTint="@color/white"/>
+
+            <CheckBox
+                android:id="@+id/cbUIUXDesign"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:text="UI/UX design"
+                android:buttonTint="@color/white"/>
+
+            <CheckBox
+                android:id="@+id/cbFullstack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:text="Fullstack Developer"
+                android:buttonTint="@color/white"/>
+
+            <CheckBox
+                android:id="@+id/cbApplication"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:text="Application Developer"
+                android:buttonTint="@color/white"/>
+
+            <TextView
+                android:id="@+id/txtHobbies"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hobbies"
+                android:layout_marginHorizontal="20dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:layout_marginTop="20dp" />
+
+            <EditText
+                android:id="@+id/edtHobbies"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginVertical="5dp"
+                android:layout_marginHorizontal="20dp"
+                android:hint="Enter About Your Hobbies"
+                android:background="@drawable/shape"
+                android:textSize="20sp"
+                android:padding="10dp"
+                android:textColorHint="@color/white" />
+
+
+
+            <TextView
+                android:id="@+id/txtLanguages"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Languages"
+                android:layout_marginHorizontal="20dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:layout_marginTop="20dp" />
+
+            <EditText
+                android:id="@+id/edtLang"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginVertical="5dp"
+                android:layout_marginHorizontal="20dp"
+                android:hint="Enter About Language that you know"
+                android:background="@drawable/shape"
+                android:textSize="20sp"
+                android:padding="10dp"
+                android:textColorHint="@color/white" />
+
+            <TextView
+                android:id="@+id/txtAbout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="About ME"
+                android:layout_marginHorizontal="20dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:layout_marginTop="20dp" />
+
+            <EditText
+            android:id="@+id/edtAbout"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginVertical="5dp"
+            android:layout_marginHorizontal="20dp"
+            android:hint="Enter About Your Self"
+            android:background="@drawable/shape"
+            android:textSize="20sp"
+            android:padding="10dp"
+            android:textColorHint="@color/white" />
+
+
+            <TextView
+                android:id="@+id/txtEducation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Education"
+                android:layout_marginHorizontal="20dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:layout_marginTop="20dp" />
+
+            <EditText
+                android:id="@+id/edtEdu"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginVertical="5dp"
+                android:layout_marginHorizontal="20dp"
+                android:hint="Enter Your Education"
+                android:background="@drawable/shape"
+                android:textSize="20sp"
+                android:padding="10dp"
+                android:textColorHint="@color/white" />
+
+            <TextView
+                android:id="@+id/txtExperience"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Experience"
+                android:layout_marginHorizontal="20dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:layout_marginTop="20dp" />
+
+            <EditText
+                android:id="@+id/edtExperience"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginVertical="5dp"
+                android:layout_marginHorizontal="20dp"
+                android:hint="Enter Your Experience"
+                android:background="@drawable/shape"
+                android:textSize="20sp"
+                android:padding="10dp"
+                android:textColorHint="@color/white" />
+
+
+
+            <Button
+                android:id="@+id/btnCreate"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:text="Create Resume"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:background="@drawable/gradient"
+                android:layout_gravity="center"
+                android:layout_marginVertical="20dp"
+                android:layout_marginHorizontal="20dp"/>
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>
