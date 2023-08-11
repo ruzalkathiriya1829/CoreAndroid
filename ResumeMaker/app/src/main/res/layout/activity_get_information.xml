@@ -5,8 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@color/purple"
-    tools:context=".GetInformation">
+    android:background="@color/ofwhite"
+    tools:context=".GetInformationActivity">
 
 
     <TextView
@@ -14,9 +14,9 @@
         android:layout_height="wrap_content"
         android:text="Fill Details and Create Your Resume"
         android:layout_gravity="center"
+        android:textColor="@color/black"
         android:textSize="24sp"
         android:textStyle="bold"
-        android:textColor="@color/white"
         android:layout_marginVertical="20dp"/>
 
     <ScrollView
@@ -29,6 +29,17 @@
             android:layout_height="match_parent"
             android:orientation="vertical">
 
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fill Personal Details"
+                android:textColor="@color/black"
+                android:layout_marginHorizontal="20dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp" />
+
             <EditText
                 android:id="@+id/edtName"
                 android:layout_width="match_parent"
@@ -36,11 +47,11 @@
                 android:layout_marginTop="20dp"
                 android:layout_marginHorizontal="20dp"
                 android:hint="Enter Your Full Name"
+                android:textColorHint="@color/black"
                 android:background="@drawable/shape"
                 android:inputType="text"
                 android:textSize="20sp"
-                android:padding="10dp"
-                android:textColorHint="@color/white" />
+                android:padding="10dp" />
 
             <EditText
                 android:id="@+id/edtProfession"
@@ -49,11 +60,12 @@
                 android:layout_marginTop="20dp"
                 android:layout_marginHorizontal="20dp"
                 android:hint="Enter Your Profession"
+                android:textColorHint="@color/black"
                 android:inputType="textAutoCorrect"
                 android:background="@drawable/shape"
                 android:textSize="20sp"
-                android:padding="10dp"
-                android:textColorHint="@color/white" />
+                android:padding="10dp" />
+
 
             <TextView
                 android:layout_width="wrap_content"
@@ -61,8 +73,8 @@
                 android:text="Fill Contect Details"
                 android:layout_marginHorizontal="20dp"
                 android:textSize="20sp"
+                android:textColor="@color/black"
                 android:textStyle="bold"
-                android:textColor="@color/white"
                 android:layout_marginTop="20dp" />
 
             <EditText
@@ -71,11 +83,11 @@
                 android:layout_height="60dp"
                 android:layout_marginHorizontal="20dp"
                 android:layout_marginVertical="5dp"
+                android:textColorHint="@color/black"
                 android:background="@drawable/shape"
                 android:hint="Enter Your E-mail Address"
                 android:inputType="textEmailAddress"
                 android:padding="10dp"
-                android:textColorHint="@color/white"
                 android:textSize="20sp" />
 
             <EditText
@@ -85,11 +97,11 @@
                 android:layout_marginVertical="5dp"
                 android:layout_marginHorizontal="20dp"
                 android:hint="Enter MobileNO"
+                android:textColorHint="@color/black"
                 android:inputType="number"
                 android:background="@drawable/shape"
                 android:textSize="20sp"
-                android:padding="10dp"
-                android:textColorHint="@color/white" />
+                android:padding="10dp" />
 
 
             <EditText
@@ -99,11 +111,11 @@
                 android:layout_marginVertical="5dp"
                 android:layout_marginHorizontal="20dp"
                 android:hint="Enter Your Address"
+                android:textColorHint="@color/black"
                 android:background="@drawable/shape"
                 android:inputType="text"
                 android:textSize="20sp"
-                android:padding="10dp"
-                android:textColorHint="@color/white" />
+                android:padding="10dp" />
 
 
             <TextView
@@ -111,10 +123,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Skills (Professional)"
+                android:textColor="@color/black"
                 android:layout_marginHorizontal="20dp"
                 android:textSize="20sp"
                 android:textStyle="bold"
-                android:textColor="@color/white"
                 android:layout_marginTop="20dp" />
 
             <CheckBox
@@ -122,10 +134,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="20dp"
-                android:textSize="20sp"
-                android:textColor="@color/white"
                 android:text="Web design"
-                android:buttonTint="@color/white"/>
+                android:buttonTint="@color/black"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
 
             <CheckBox
                 android:id="@+id/cbGraphicsDesign"
@@ -133,9 +145,9 @@
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="20dp"
                 android:textSize="20sp"
-                android:textColor="@color/white"
-                android:text="Graphics design"
-                android:buttonTint="@color/white"/>
+                android:buttonTint="@color/black"
+                android:textColor="@color/black"
+                android:text="Graphics design" />
 
             <CheckBox
                 android:id="@+id/cbUIUXDesign"
@@ -143,9 +155,9 @@
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="20dp"
                 android:textSize="20sp"
-                android:textColor="@color/white"
-                android:text="UI/UX design"
-                android:buttonTint="@color/white"/>
+                android:buttonTint="@color/black"
+                android:textColor="@color/black"
+                android:text="UI/UX design" />
 
             <CheckBox
                 android:id="@+id/cbFullstack"
@@ -153,9 +165,9 @@
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="20dp"
                 android:textSize="20sp"
-                android:textColor="@color/white"
-                android:text="Fullstack Developer"
-                android:buttonTint="@color/white"/>
+                android:buttonTint="@color/black"
+                android:textColor="@color/black"
+                android:text="Fullstack Developer" />
 
             <CheckBox
                 android:id="@+id/cbApplication"
@@ -163,19 +175,19 @@
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="20dp"
                 android:textSize="20sp"
-                android:textColor="@color/white"
-                android:text="Application Developer"
-                android:buttonTint="@color/white"/>
+                android:buttonTint="@color/black"
+                android:textColor="@color/black"
+                android:text="Application Developer" />
 
             <TextView
                 android:id="@+id/txtHobbies"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Hobbies"
+                android:textColor="@color/black"
                 android:layout_marginHorizontal="20dp"
                 android:textSize="20sp"
                 android:textStyle="bold"
-                android:textColor="@color/white"
                 android:layout_marginTop="20dp" />
 
             <EditText
@@ -185,10 +197,10 @@
                 android:layout_marginVertical="5dp"
                 android:layout_marginHorizontal="20dp"
                 android:hint="Enter About Your Hobbies"
+                android:textColorHint="@color/black"
                 android:background="@drawable/shape"
                 android:textSize="20sp"
-                android:padding="10dp"
-                android:textColorHint="@color/white" />
+                android:padding="10dp" />
 
 
 
@@ -199,8 +211,8 @@
                 android:text="Languages"
                 android:layout_marginHorizontal="20dp"
                 android:textSize="20sp"
+                android:textColor="@color/black"
                 android:textStyle="bold"
-                android:textColor="@color/white"
                 android:layout_marginTop="20dp" />
 
             <EditText
@@ -209,45 +221,68 @@
                 android:layout_height="60dp"
                 android:layout_marginVertical="5dp"
                 android:layout_marginHorizontal="20dp"
+                android:textColorHint="@color/black"
                 android:hint="Enter About Language that you know"
                 android:background="@drawable/shape"
                 android:textSize="20sp"
-                android:padding="10dp"
-                android:textColorHint="@color/white" />
+                android:padding="10dp" />
 
             <TextView
                 android:id="@+id/txtAbout"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="About ME"
+                android:textColor="@color/black"
                 android:layout_marginHorizontal="20dp"
                 android:textSize="20sp"
                 android:textStyle="bold"
-                android:textColor="@color/white"
                 android:layout_marginTop="20dp" />
 
             <EditText
-            android:id="@+id/edtAbout"
-            android:layout_width="match_parent"
-            android:layout_height="60dp"
-            android:layout_marginVertical="5dp"
-            android:layout_marginHorizontal="20dp"
-            android:hint="Enter About Your Self"
-            android:background="@drawable/shape"
-            android:textSize="20sp"
-            android:padding="10dp"
-            android:textColorHint="@color/white" />
+                android:id="@+id/edtAbout"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginVertical="5dp"
+                android:layout_marginHorizontal="20dp"
+                android:textColorHint="@color/black"
+                android:hint="Enter About Your Self"
+                android:background="@drawable/shape"
+                android:textSize="20sp"
+                android:padding="10dp" />
+
+            <TextView
+                android:id="@+id/txtCurricularActivity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Extracurricular Activity"
+                android:textColor="@color/black"
+                android:layout_marginHorizontal="20dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp" />
+
+            <EditText
+                android:id="@+id/edtCurricularActivity"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginVertical="5dp"
+                android:layout_marginHorizontal="20dp"
+                android:textColorHint="@color/black"
+                android:hint="Enter Extracurricular Activity "
+                android:background="@drawable/shape"
+                android:textSize="20sp"
+                android:padding="10dp" />
 
 
             <TextView
                 android:id="@+id/txtEducation"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Education"
+                android:text="Qualification"
                 android:layout_marginHorizontal="20dp"
                 android:textSize="20sp"
+                android:textColorHint="@color/black"
                 android:textStyle="bold"
-                android:textColor="@color/white"
                 android:layout_marginTop="20dp" />
 
             <EditText
@@ -256,21 +291,21 @@
                 android:layout_height="60dp"
                 android:layout_marginVertical="5dp"
                 android:layout_marginHorizontal="20dp"
-                android:hint="Enter Your Education"
+                android:textColorHint="@color/black"
+                android:hint="Enter Your Qualification"
                 android:background="@drawable/shape"
                 android:textSize="20sp"
-                android:padding="10dp"
-                android:textColorHint="@color/white" />
+                android:padding="10dp" />
 
             <TextView
                 android:id="@+id/txtExperience"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Experience"
+                android:textColor="@color/black"
                 android:layout_marginHorizontal="20dp"
                 android:textSize="20sp"
                 android:textStyle="bold"
-                android:textColor="@color/white"
                 android:layout_marginTop="20dp" />
 
             <EditText
@@ -279,25 +314,25 @@
                 android:layout_height="60dp"
                 android:layout_marginVertical="5dp"
                 android:layout_marginHorizontal="20dp"
+                android:textColorHint="@color/black"
                 android:hint="Enter Your Experience"
                 android:background="@drawable/shape"
                 android:textSize="20sp"
-                android:padding="10dp"
-                android:textColorHint="@color/white" />
+                android:padding="10dp" />
 
 
 
             <Button
                 android:id="@+id/btnCreate"
                 android:layout_width="wrap_content"
-                android:layout_height="60dp"
-                android:text="Create Resume"
-                android:textSize="20sp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
                 android:textStyle="bold"
-                android:background="@drawable/gradient"
+                android:text="Create Resume"
                 android:layout_gravity="center"
                 android:layout_marginVertical="20dp"
-                android:layout_marginHorizontal="20dp"/>
+                android:layout_marginHorizontal="20dp"
+                android:backgroundTint="@color/skin" />
 
 
 

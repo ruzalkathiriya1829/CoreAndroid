@@ -5,19 +5,20 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.TextView;
 
-public class ResumeSetScreen extends AppCompatActivity {
+public class resume1Activity extends AppCompatActivity {
 
-        TextView txtProfession,txtName,txtEmail,txtMobileNO,txtAddress,txtWeb,txtGrp,txtUi,txtFull,txtApp;
-        TextView txtAbout,txtEdu,txtExp,txtHobby,txtLang;
+    TextView txtProfession,txtName,txtEmail,txtMobileNO,txtAddress,txtWeb,txtAbout,txtEdu,txtExp,txtHobby,txtLang;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_resume_set_screen);
+        setContentView(R.layout.activity_resume1);
 
         init();
     }
 
     private  void init()
+
     {
 
         txtName = findViewById(R.id.txtName);
@@ -31,10 +32,7 @@ public class ResumeSetScreen extends AppCompatActivity {
         txtHobby = findViewById(R.id.txtHobby);
 
         txtWeb = findViewById(R.id.txtWeb);
-        txtGrp = findViewById(R.id.txtGrp);
-        txtUi = findViewById(R.id.txtUi);
-        txtFull = findViewById(R.id.txtFull);
-        txtApp = findViewById(R.id.txtApp);
+
 
         txtAbout = findViewById(R.id.txtAbout);
         txtEdu = findViewById(R.id.txtEdu);
@@ -49,11 +47,7 @@ public class ResumeSetScreen extends AppCompatActivity {
             txtMobileNO.setText(getIntent().getStringExtra("MobileNO"));
             txtAddress.setText(getIntent().getStringExtra("Address"));
 
-            txtWeb.setText(getIntent().getStringExtra("skill1"));
-            txtGrp.setText(getIntent().getStringExtra("skill2"));
-            txtUi.setText(getIntent().getStringExtra("skill3"));
-            txtFull.setText(getIntent().getStringExtra("skill4"));
-            txtApp.setText(getIntent().getStringExtra("skill5"));
+            txtWeb.setText(getIntent().getStringExtra("skill"));
 
             txtHobby.setText(getIntent().getStringExtra("hobby"));
             txtLang.setText(getIntent().getStringExtra("language"));

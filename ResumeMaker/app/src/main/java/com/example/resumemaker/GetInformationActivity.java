@@ -9,9 +9,9 @@ import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
 
-public class GetInformation extends AppCompatActivity {
+public class GetInformationActivity extends AppCompatActivity {
 
-    EditText edtName,edtProfession,edtGmail,edtMobileNo,edtAddress,edtAbout,edtEdu,edtExperience,edtHobbies,edtLang;
+    EditText edtName,edtProfession,edtGmail,edtMobileNo,edtAddress,edtAbout,edtEdu,edtExperience,edtHobbies,edtLang,edtCurricularActivity;
     Button btnCreate;
     CheckBox cbWebDesign,cbGraphicsDesign,cbUIUXDesign,cbFullstack,cbApplication;
 
@@ -38,6 +38,7 @@ public class GetInformation extends AppCompatActivity {
         edtExperience = findViewById(R.id.edtExperience);
         edtHobbies = findViewById(R.id.edtHobbies);
         edtLang = findViewById(R.id.edtLang);
+        edtCurricularActivity = findViewById(R.id.edtCurricularActivity);
 
         //checkbox
         cbWebDesign = findViewById(R.id.cbWebDesign);
@@ -56,24 +57,24 @@ public class GetInformation extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                String skill1 = null,skill2 = null,skill3 = null,skill4 = null,skill5 = null;
+                String skill = null;
 
                 if (cbWebDesign.isChecked()) {
-                     skill1 = cbWebDesign.getText().toString();
+                     skill = cbWebDesign.getText().toString() + "\n";
                 }
                 if (cbGraphicsDesign.isChecked()) {
-                     skill2 = cbGraphicsDesign.getText().toString();
+                     skill += cbGraphicsDesign.getText().toString() + "\n";
                 }
                 if (cbUIUXDesign.isChecked()) {
-                     skill3 = cbUIUXDesign.getText().toString();
+                    skill += cbUIUXDesign.getText().toString() + "\n";
 
                 }
                 if (cbFullstack.isChecked()) {
-                     skill4 = cbFullstack.getText().toString();
+                    skill += cbFullstack.getText().toString() + "\n";
                 }
 
                 if (cbApplication.isChecked()) {
-                    skill5 = cbApplication.getText().toString();
+                    skill += cbApplication.getText().toString() + "\n";
                 }
 
                 //edit text
@@ -87,10 +88,11 @@ public class GetInformation extends AppCompatActivity {
                 String Exp = edtExperience.getText().toString();
                 String hobby = edtHobbies.getText().toString();
                 String language = edtLang.getText().toString();
+                String Activity = edtCurricularActivity.getText().toString();
 
 
 
-                Intent i = new Intent(GetInformation.this, ResumeSetScreen.class);
+                Intent i = new Intent(GetInformationActivity.this, SelectionScreenActivity.class);
 
                 //edit text
                 i.putExtra("name", name);
@@ -103,12 +105,9 @@ public class GetInformation extends AppCompatActivity {
                 i.putExtra("Exp", Exp);
                 i.putExtra("hobby", hobby);
                 i.putExtra("language", language);
+                i.putExtra("Activity", Activity);
 
-                i.putExtra("skill1", skill1);
-                i.putExtra("skill2", skill2);
-                i.putExtra("skill3", skill3);
-                i.putExtra("skill4", skill4);
-                i.putExtra("skill5", skill5);
+                i.putExtra("skill", skill);
 
 
                 startActivity(i);
