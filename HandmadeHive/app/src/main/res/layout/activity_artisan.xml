@@ -265,7 +265,7 @@
                         android:orientation="horizontal">
 
                         <androidx.appcompat.widget.AppCompatButton
-                            android:layout_width="100dp"
+                            android:layout_width="90dp"
                             android:layout_height="35dp"
                             android:layout_marginHorizontal="5dp"
                             android:background="@drawable/button_shape_file"
@@ -274,7 +274,7 @@
                             android:textColor="@color/white" />
 
                         <androidx.appcompat.widget.AppCompatButton
-                            android:layout_width="100dp"
+                            android:layout_width="90dp"
                             android:layout_height="35dp"
                             android:layout_marginHorizontal="5dp"
                             android:background="@drawable/shape"
@@ -283,7 +283,7 @@
                             android:textColor="@color/red" />
 
                         <androidx.appcompat.widget.AppCompatButton
-                            android:layout_width="100dp"
+                            android:layout_width="90dp"
                             android:layout_height="35dp"
                             android:layout_marginHorizontal="5dp"
                             android:background="@drawable/shape"
@@ -418,27 +418,27 @@
                         android:orientation="horizontal">
 
                         <androidx.appcompat.widget.AppCompatButton
-                            android:layout_width="100dp"
+                            android:layout_width="90dp"
                             android:layout_height="35dp"
-                            android:layout_marginHorizontal="10dp"
+                            android:layout_marginHorizontal="5dp"
                             android:background="@drawable/button_shape_file"
                             android:text="Follow"
                             android:textAllCaps="false"
                             android:textColor="@color/white" />
 
                         <androidx.appcompat.widget.AppCompatButton
-                            android:layout_width="100dp"
+                            android:layout_width="90dp"
                             android:layout_height="35dp"
-                            android:layout_marginHorizontal="10dp"
+                            android:layout_marginHorizontal="5dp"
                             android:background="@drawable/shape"
                             android:text="Shop"
                             android:textAllCaps="false"
                             android:textColor="@color/red" />
 
                         <androidx.appcompat.widget.AppCompatButton
-                            android:layout_width="100dp"
+                            android:layout_width="90dp"
                             android:layout_height="35dp"
-                            android:layout_marginHorizontal="10dp"
+                            android:layout_marginHorizontal="5dp"
                             android:background="@drawable/shape"
                             android:text="Collaborate"
                             android:textAllCaps="false"
@@ -454,9 +454,9 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="350dp"
-                android:layout_marginBottom="20dp"
                 android:layout_marginHorizontal="20dp"
                 android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
                 app:cardCornerRadius="10dp">
 
                 <LinearLayout
@@ -572,27 +572,27 @@
                         android:orientation="horizontal">
 
                         <androidx.appcompat.widget.AppCompatButton
-                            android:layout_width="100dp"
+                            android:layout_width="90dp"
                             android:layout_height="35dp"
-                            android:layout_marginHorizontal="10dp"
+                            android:layout_marginHorizontal="5dp"
                             android:background="@drawable/button_shape_file"
                             android:text="Follow"
                             android:textAllCaps="false"
                             android:textColor="@color/white" />
 
                         <androidx.appcompat.widget.AppCompatButton
-                            android:layout_width="100dp"
+                            android:layout_width="90dp"
                             android:layout_height="35dp"
-                            android:layout_marginHorizontal="10dp"
+                            android:layout_marginHorizontal="5dp"
                             android:background="@drawable/shape"
                             android:text="Shop"
                             android:textAllCaps="false"
                             android:textColor="@color/red" />
 
                         <androidx.appcompat.widget.AppCompatButton
-                            android:layout_width="100dp"
+                            android:layout_width="90dp"
                             android:layout_height="35dp"
-                            android:layout_marginHorizontal="10dp"
+                            android:layout_marginHorizontal="5dp"
                             android:background="@drawable/shape"
                             android:text="Collaborate"
                             android:textAllCaps="false"
