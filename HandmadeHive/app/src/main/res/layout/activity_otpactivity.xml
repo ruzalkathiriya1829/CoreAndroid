@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".OTPActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter OTP"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter 4-digit code sent to your phone number"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/black"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+91 7338678920"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/black"
+        android:textSize="15sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="20dp">
+
+        <EditText
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:paddingLeft="20dp"
+            android:inputType="number"
+            android:textColor="@color/black"
+            android:background="@drawable/edittext_shape_file"
+            android:layout_marginHorizontal="5dp"/>
+
+        <EditText
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:paddingLeft="20dp"
+            android:inputType="number"
+            android:textColor="@color/black"
+            android:background="@drawable/edittext_shape_file"
+            android:layout_marginHorizontal="5dp" />
+
+        <EditText
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:paddingLeft="20dp"
+            android:inputType="number"
+            android:textColor="@color/black"
+            android:background="@drawable/edittext_shape_file"
+            android:layout_marginHorizontal="5dp" />
+
+        <EditText
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:paddingLeft="20dp"
+            android:inputType="number"
+            android:textColor="@color/black"
+            android:background="@drawable/edittext_shape_file"
+            android:layout_marginHorizontal="5dp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Resend OTP in 00.15"
+        android:textSize="15sp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/red"
+        android:gravity="center" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnContinue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Continue"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:background="@drawable/button_shape_file"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="30dp"/>
+
+
+</LinearLayout>
