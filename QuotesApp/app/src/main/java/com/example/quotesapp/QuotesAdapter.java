@@ -18,6 +18,8 @@ public class QuotesAdapter extends RecyclerView.Adapter<QuotesAdapter.MyViewHold
 
         this.quotesActivity = quotesActivity;
         this.quoteslist = quoteslist;
+
+
     }
 
     @NonNull

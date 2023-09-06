@@ -380,91 +380,91 @@ public class QuotesActivity extends AppCompatActivity {
 
 
             }
-            else if (title.equals("Birthday"))
+            else if (title.equals("Friendship"))
             {
                 ModalClassQuotes m1 = new ModalClassQuotes();
-                m1.setQuotes("");
+                m1.setQuotes("Friends till the end A true friend is one soul in two bodies.");
                 quoteslist.add(m1);
 
                 ModalClassQuotes m2 = new ModalClassQuotes();
-                m2.setQuotes("");
+                m2.setQuotes("Your vibe attracts your tribe Friends don’t let friends do silly things alone.");
                 quoteslist.add(m2);
 
                 ModalClassQuotes m3 = new ModalClassQuotes();
-                m3.setQuotes("");
+                m3.setQuotes("Love is beautiful, friendship is better");
                 quoteslist.add(m3);
 
                 ModalClassQuotes m4 = new ModalClassQuotes();
-                m4.setQuotes("");
+                m4.setQuotes("Best friends don’t care if your house is clean. They care if you have wine.");
                 quoteslist.add(m4);
 
                 ModalClassQuotes m5 = new ModalClassQuotes();
-                m5.setQuotes("");
+                m5.setQuotes("I hope we’re friends until we die. Then, I hope we stay ghost friends so we can walk through walls and scare people.");
                 quoteslist.add(m5);
 
                 ModalClassQuotes m6 = new ModalClassQuotes();
-                m6.setQuotes("");
+                m6.setQuotes("Strangers think I’m quiet, my friends think I’m outgoing, but my best friends know that I’m completely insane.");
                 quoteslist.add(m6);
 
                 ModalClassQuotes m7 = new ModalClassQuotes();
-                m7.setQuotes("");
+                m7.setQuotes("I hope we’re friends until we die. Then, I hope we stay ghost friends so we can walk through walls and scare people.");
                 quoteslist.add(m7);
 
                 ModalClassQuotes m8 = new ModalClassQuotes();
-                m8.setQuotes("");
+                m8.setQuotes("Friends come and go like waves of the ocean, but the true ones stick like an octopus on your face.");
                 quoteslist.add(m8);
 
                 ModalClassQuotes m9 = new ModalClassQuotes();
-                m9.setQuotes("");
+                m9.setQuotes("Real friendship is when your friend comes over to your house just take a nap.");
                 quoteslist.add(m9);
 
                 ModalClassQuotes m10 = new ModalClassQuotes();
-                m10.setQuotes("");
+                m10.setQuotes("Friends pick us up when we fall down, and if they can’t pick us up they lie down and listen for awhile.");
                 quoteslist.add(m10);
 
                 ModalClassQuotes m11 = new ModalClassQuotes();
-                m11.setQuotes("");
+                m11.setQuotes("Best friend: one million memories, ten thousand inside jokes, one hundred shared secrets.");
                 quoteslist.add(m11);
 
                 ModalClassQuotes m12 = new ModalClassQuotes();
-                m12.setQuotes("");
+                m12.setQuotes("Good friends show their love in times of trouble, not just in times of happiness.");
                 quoteslist.add(m12);
 
                 ModalClassQuotes m13 = new ModalClassQuotes();
-                m13.setQuotes("");
+                m13.setQuotes("“There are no strangers here; Only friends you haven’t yet met.” ");
                 quoteslist.add(m13);
 
                 ModalClassQuotes m14 = new ModalClassQuotes();
-                m14.setQuotes("");
+                m14.setQuotes("“Man’s best support is a very dear friend.”");
                 quoteslist.add(m14);
 
                 ModalClassQuotes m15 = new ModalClassQuotes();
-                m15.setQuotes("");
+                m15.setQuotes("Friendship at first sight, like love at first sight, is said to be the only truth.");
                 quoteslist.add(m15);
 
                 ModalClassQuotes m16 = new ModalClassQuotes();
-                m16.setQuotes("");
+                m16.setQuotes("As we grow up, we realize it’s less important to have a ton of friends and more important to have real ones.");
                 quoteslist.add(m16);
 
                 ModalClassQuotes m17 = new ModalClassQuotes();
-                m17.setQuotes("");
+                m17.setQuotes("Fake friends believe in rumors; real friends believe in you.");
                 quoteslist.add(m17);
 
                 ModalClassQuotes m18 = new ModalClassQuotes();
-                m18.setQuotes("");
+                m18.setQuotes("Nothing makes the earth seem so spacious as to have friends at a distance; they make the latitudes and longitudes.");
                 quoteslist.add(m18);
 
                 ModalClassQuotes m19 = new ModalClassQuotes();
-                m19.setQuotes("");
+                m19.setQuotes("F.R.I.E.N.D.S: Fight for you. Respect you. Include you. Encourage you. Need you. Deserve you. Stand by you.");
                 quoteslist.add(m19);
 
                 ModalClassQuotes m20 = new ModalClassQuotes();
-                m20.setQuotes("");
+                m20.setQuotes("The only people I owe my loyalty to are those who never made me question theirs.");
                 quoteslist.add(m20);
 
 
             }
-            else if (title.equals("Friendship"))
+            else if (title.equals("Birthday"))
             {
                 ModalClassQuotes m1 = new ModalClassQuotes();
                 m1.setQuotes("Today was the best because I got to spend it with you — happy birthday!");
