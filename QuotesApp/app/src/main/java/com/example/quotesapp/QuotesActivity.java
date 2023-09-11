@@ -9,6 +9,7 @@ import android.content.ClipboardManager;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.Window;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -27,6 +28,11 @@ public class QuotesActivity extends AppCompatActivity {
         setContentView(R.layout.activity_quotes);
 
         initview();
+
+        //navigation or status bar colour change code
+
+        Window w = this.getWindow();
+        w.setStatusBarColor(getColor(R.color.black));
     }
 
     private void initview() {
@@ -1300,6 +1306,426 @@ public class QuotesActivity extends AppCompatActivity {
 
                 ModalClassQuotes m20 = new ModalClassQuotes();
                 m20.setQuotes("Music… can name the unnameable and communicate the unknowable.");
+                quoteslist.add(m20);
+
+
+            }
+            else if (title.equals("Funny"))
+            {
+                ModalClassQuotes m1 = new ModalClassQuotes();
+                m1.setQuotes("Gentlemen, you can't fight in here. This is the war room.");
+                quoteslist.add(m1);
+
+                ModalClassQuotes m2 = new ModalClassQuotes();
+                m2.setQuotes("Clothes make the man. Naked people have little or no influence in society.");
+                quoteslist.add(m2);
+
+                ModalClassQuotes m3 = new ModalClassQuotes();
+                m3.setQuotes("“Insomnia sharpens your math skills because you spend all night calculating how much sleep you’ll get if you’re able to ‘fall asleep right now.’”");
+                quoteslist.add(m3);
+
+                ModalClassQuotes m4 = new ModalClassQuotes();
+                m4.setQuotes("“I’m not superstitious, but I am a little seditious.”");
+                quoteslist.add(m4);
+
+                ModalClassQuotes m5 = new ModalClassQuotes();
+                m5.setQuotes("“I’m not insane. My mother had me tested.”");
+                quoteslist.add(m5);
+
+                ModalClassQuotes m6 = new ModalClassQuotes();
+                m6.setQuotes("Doing nothing is very hard to do… you never know when you’re finished.");
+                quoteslist.add(m6);
+
+                ModalClassQuotes m7 = new ModalClassQuotes();
+                m7.setQuotes("No man goes before his time — unless his boss leaves early.” — Groucho Marx By working faithfully eight hours a day you may eventually get to be boss and work twelve hours a day.");
+                quoteslist.add(m7);
+
+                ModalClassQuotes m8 = new ModalClassQuotes();
+                m8.setQuotes("Every Friday, I like to high five myself for getting through another week on little more than caffeine, willpower, and inappropriate humor.");
+                quoteslist.add(m8);
+
+                ModalClassQuotes m9 = new ModalClassQuotes();
+                m9.setQuotes("Anyone who lives within their means suffers from a lack of imagination.");
+                quoteslist.add(m9);
+
+                ModalClassQuotes m10 = new ModalClassQuotes();
+                m10.setQuotes("If people are upset because you’ve forgotten something, console them by letting them know you didn’t forget—you just weren’t remembering.");
+                quoteslist.add(m10);
+
+                ModalClassQuotes m11 = new ModalClassQuotes();
+                m11.setQuotes("Good parenting means investing in your child's future, which is why I am saving to buy mine a hoverboard someday.");
+                quoteslist.add(m11);
+
+                ModalClassQuotes m12 = new ModalClassQuotes();
+                m12.setQuotes("Love is being stupid together.");
+                quoteslist.add(m12);
+
+                ModalClassQuotes m13 = new ModalClassQuotes();
+                m13.setQuotes("I never forget a face—but in your case, I’ll be glad to make an exception.");
+                quoteslist.add(m13);
+
+                ModalClassQuotes m14 = new ModalClassQuotes();
+                m14.setQuotes("“I haven’t taken my Christmas lights down. They look so nice on the pumpkin.”");
+                quoteslist.add(m14);
+
+                ModalClassQuotes m15 = new ModalClassQuotes();
+                m15.setQuotes("My advice to you is get married: If you find a good wife you’ll be happy; if not, you’ll become a philosopher.");
+                quoteslist.add(m15);
+
+                ModalClassQuotes m16 = new ModalClassQuotes();
+                m16.setQuotes("Before you marry a person, you should first make them use a computer with slow Internet service to see who they really are.");
+                quoteslist.add(m16);
+
+                ModalClassQuotes m17 = new ModalClassQuotes();
+                m17.setQuotes("I’ve always thought people would find a lot more pleasure in their routines if they burst into song at significant moments.");
+                quoteslist.add(m17);
+
+                ModalClassQuotes m18 = new ModalClassQuotes();
+                m18.setQuotes("Behind every great man is a woman rolling her eyes.");
+                quoteslist.add(m18);
+
+                ModalClassQuotes m19 = new ModalClassQuotes();
+                m19.setQuotes("When I was a kid my parents moved a lot, but I always found them.");
+                quoteslist.add(m19);
+
+                ModalClassQuotes m20 = new ModalClassQuotes();
+                m20.setQuotes("If you are not yelling at your kids, you are not spending enough time with them.");
+                quoteslist.add(m20);
+
+
+            }
+            else if (title.equals("Leadership"))
+            {
+                ModalClassQuotes m1 = new ModalClassQuotes();
+                m1.setQuotes("Innovation distinguishes between a leader and a follower.");
+                quoteslist.add(m1);
+
+                ModalClassQuotes m2 = new ModalClassQuotes();
+                m2.setQuotes("Do not follow where the path may lead. Go instead where there is no path and leave a trail.");
+                quoteslist.add(m2);
+
+                ModalClassQuotes m3 = new ModalClassQuotes();
+                m3.setQuotes("The very essence of leadership is that you have to have vision. You can't blow an uncertain trumpet.");
+                quoteslist.add(m3);
+
+                ModalClassQuotes m4 = new ModalClassQuotes();
+                m4.setQuotes("It is not the strongest of the species that survive, nor the most intelligent, but the one most responsive to change.");
+                quoteslist.add(m4);
+
+                ModalClassQuotes m5 = new ModalClassQuotes();
+                m5.setQuotes("I start with the premise that the function of leadership is to produce more leaders, not more followers.");
+                quoteslist.add(m5);
+
+                ModalClassQuotes m6 = new ModalClassQuotes();
+                m6.setQuotes("Leadership is the art of giving people a platform for spreading ideas that work.");
+                quoteslist.add(m6);
+
+                ModalClassQuotes m7 = new ModalClassQuotes();
+                m7.setQuotes("The pessimist complains about the wind. The optimist expects it to change. The leader adjusts the sails.");
+                quoteslist.add(m7);
+
+                ModalClassQuotes m8 = new ModalClassQuotes();
+                m8.setQuotes("Champions keep playing until they get it right.");
+                quoteslist.add(m8);
+
+                ModalClassQuotes m9 = new ModalClassQuotes();
+                m9.setQuotes("If you spend too much time thinking about a thing, you’ll never get it done.");
+                quoteslist.add(m9);
+
+                ModalClassQuotes m10 = new ModalClassQuotes();
+                m10.setQuotes("The greatest leaders mobilize others by coalescing people around a shared vision.");
+                quoteslist.add(m10);
+
+                ModalClassQuotes m11 = new ModalClassQuotes();
+                m11.setQuotes("Example is not the main thing in influencing others. It is the only thing.");
+                quoteslist.add(m11);
+
+                ModalClassQuotes m12 = new ModalClassQuotes();
+                m12.setQuotes("Leadership is the art of getting someone else to do something you want done because he wants to do it.");
+                quoteslist.add(m12);
+
+                ModalClassQuotes m13 = new ModalClassQuotes();
+                m13.setQuotes("A leader is a dealer in hope.");
+                quoteslist.add(m13);
+
+                ModalClassQuotes m14 = new ModalClassQuotes();
+                m14.setQuotes("Leadership is a combination of strategy and character. If you must be without one, be without the strategy.");
+                quoteslist.add(m14);
+
+                ModalClassQuotes m15 = new ModalClassQuotes();
+                m15.setQuotes("The task of leadership is not to put greatness into humanity, but to elicit it, for the greatness is already there.");
+                quoteslist.add(m15);
+
+                ModalClassQuotes m16 = new ModalClassQuotes();
+                m16.setQuotes("The led must not be compelled. They must be able to choose their own leader.");
+                quoteslist.add(m16);
+
+                ModalClassQuotes m17 = new ModalClassQuotes();
+                m17.setQuotes("You manage things; you lead people.");
+                quoteslist.add(m17);
+
+                ModalClassQuotes m18 = new ModalClassQuotes();
+                m18.setQuotes("A leader should be visionary and have more foresight than an employee.");
+                quoteslist.add(m18);
+
+                ModalClassQuotes m19 = new ModalClassQuotes();
+                m19.setQuotes("I start with the premise that the function of leadership is to produce more leaders, not more followers.");
+                quoteslist.add(m19);
+
+                ModalClassQuotes m20 = new ModalClassQuotes();
+                m20.setQuotes("Success consists of going from failure to failure without loss of enthusiasm.");
+                quoteslist.add(m20);
+
+
+            }
+            else if (title.equals("Cousins"))
+            {
+                ModalClassQuotes m1 = new ModalClassQuotes();
+                m1.setQuotes("My cousin is my best friend i dont ever want to lose her i hope she sees this<3");
+                quoteslist.add(m1);
+
+                ModalClassQuotes m2 = new ModalClassQuotes();
+                m2.setQuotes("A cousin knows everything about you and loves you for it.");
+                quoteslist.add(m2);
+
+                ModalClassQuotes m3 = new ModalClassQuotes();
+                m3.setQuotes("Cousins are the friends that love you from birth.");
+                quoteslist.add(m3);
+
+                ModalClassQuotes m4 = new ModalClassQuotes();
+                m4.setQuotes("Cousins are the friends that grow with you.");
+                quoteslist.add(m4);
+
+                ModalClassQuotes m5 = new ModalClassQuotes();
+                m5.setQuotes("Cousins are the best friends that will always understand your weirdness and like you anyway.");
+                quoteslist.add(m5);
+
+                ModalClassQuotes m6 = new ModalClassQuotes();
+                m6.setQuotes("Every man sees in his relatives, and especially in his cousins, a series of grotesque caricatures of himself.");
+                quoteslist.add(m6);
+
+                ModalClassQuotes m7 = new ModalClassQuotes();
+                m7.setQuotes("Cousins are the friends that couldn't get away from you even if they tried.");
+                quoteslist.add(m7);
+
+                ModalClassQuotes m8 = new ModalClassQuotes();
+                m8.setQuotes("Cousins are crazy friends that will dance with you in the rain.");
+                quoteslist.add(m8);
+
+                ModalClassQuotes m9 = new ModalClassQuotes();
+                m9.setQuotes("Cousin by blood, friends by choice.");
+                quoteslist.add(m9);
+
+                ModalClassQuotes m10 = new ModalClassQuotes();
+                m10.setQuotes("Cousins are friends that will love you forever.");
+                quoteslist.add(m10);
+
+                ModalClassQuotes m11 = new ModalClassQuotes();
+                m11.setQuotes("A cousin is a lens to look through and be reminded of your childhood.");
+                quoteslist.add(m11);
+
+                ModalClassQuotes m12 = new ModalClassQuotes();
+                m12.setQuotes("My cousins are shareholders of my soul.");
+                quoteslist.add(m12);
+
+                ModalClassQuotes m13 = new ModalClassQuotes();
+                m13.setQuotes("“You don't choose your family. They are God's gift to you, as you are to them.”");
+                quoteslist.add(m13);
+
+                ModalClassQuotes m14 = new ModalClassQuotes();
+                m14.setQuotes("Cousins help make the hard times easier and the easy times more fun.");
+                quoteslist.add(m14);
+
+                ModalClassQuotes m15 = new ModalClassQuotes();
+                m15.setQuotes("Happiness is a cousin who is like a sister.");
+                quoteslist.add(m15);
+
+                ModalClassQuotes m16 = new ModalClassQuotes();
+                m16.setQuotes("You don’t get to choose your cousins. They are God’s gift to you, as you are to them.");
+                quoteslist.add(m16);
+
+                ModalClassQuotes m17 = new ModalClassQuotes();
+                m17.setQuotes("Cousins are different beautiful flowers in the same garden.");
+                quoteslist.add(m17);
+
+                ModalClassQuotes m18 = new ModalClassQuotes();
+                m18.setQuotes("Cousins are cool to see, impossible to forget and true to your heart.");
+                quoteslist.add(m18);
+
+                ModalClassQuotes m19 = new ModalClassQuotes();
+                m19.setQuotes("“Cousins are many. Best friends are few. What a rare delight to find both in you.”");
+                quoteslist.add(m19);
+
+                ModalClassQuotes m20 = new ModalClassQuotes();
+                m20.setQuotes("“Some people make your laugh a little louder, your smile a little brighter, and your life a little better.”");
+                quoteslist.add(m20);
+
+
+            }
+            else if (title.equals("God"))
+            {
+                ModalClassQuotes m1 = new ModalClassQuotes();
+                m1.setQuotes("When I wake up every morning, I thank God for the new day.");
+                quoteslist.add(m1);
+
+                ModalClassQuotes m2 = new ModalClassQuotes();
+                m2.setQuotes("Life is good because God is great.");
+                quoteslist.add(m2);
+
+                ModalClassQuotes m3 = new ModalClassQuotes();
+                m3.setQuotes("God will never let us down because his love is unconditional.");
+                quoteslist.add(m3);
+
+                ModalClassQuotes m4 = new ModalClassQuotes();
+                m4.setQuotes("God has a bigger plan for me than I have for myself.");
+                quoteslist.add(m4);
+
+                ModalClassQuotes m5 = new ModalClassQuotes();
+                m5.setQuotes("Disappointments are just God’s way of saying – I’ve got something better. So be patient, have faith and live your life.");
+                quoteslist.add(m5);
+
+                ModalClassQuotes m6 = new ModalClassQuotes();
+                m6.setQuotes("God never takes away something from your life without replacing it with something better.");
+                quoteslist.add(m6);
+
+                ModalClassQuotes m7 = new ModalClassQuotes();
+                m7.setQuotes("Don’t treat people the way they treat you. Treat people the way God treats you.");
+                quoteslist.add(m7);
+
+                ModalClassQuotes m8 = new ModalClassQuotes();
+                m8.setQuotes("Don’t treat people the way they treat you. Treat people the way God treats you.");
+                quoteslist.add(m8);
+
+                ModalClassQuotes m9 = new ModalClassQuotes();
+                m9.setQuotes("God didn’t bring you this far to abandon you.");
+                quoteslist.add(m9);
+
+                ModalClassQuotes m10 = new ModalClassQuotes();
+                m10.setQuotes("Thank you God for everything in my life. The good and bad. Some were blessings and some were lessons.");
+                quoteslist.add(m10);
+
+                ModalClassQuotes m11 = new ModalClassQuotes();
+                m11.setQuotes("Those who leave everything in God’s hand will eventually see God’s hand in everything.");
+                quoteslist.add(m11);
+
+                ModalClassQuotes m12 = new ModalClassQuotes();
+                m12.setQuotes("As we draw near to God, He will draw near to us. And day by day, the hope of God’s light will grow within us.");
+                quoteslist.add(m12);
+
+                ModalClassQuotes m13 = new ModalClassQuotes();
+                m13.setQuotes("Thank God for all the blessings that he has given you.");
+                quoteslist.add(m13);
+
+                ModalClassQuotes m14 = new ModalClassQuotes();
+                m14.setQuotes("Prayer does not change God, but it changes him who prays.");
+                quoteslist.add(m14);
+
+                ModalClassQuotes m15 = new ModalClassQuotes();
+                m15.setQuotes("God never takes away something from your life without replacing it with something better.");
+                quoteslist.add(m15);
+
+                ModalClassQuotes m16 = new ModalClassQuotes();
+                m16.setQuotes("Don’t treat people the way they treat you. Treat people the way God treats you.");
+                quoteslist.add(m16);
+
+                ModalClassQuotes m17 = new ModalClassQuotes();
+                m17.setQuotes("God has a purpose for your pain, a reason for your struggle, and a reward for your faithfulness. Trust Him and don’t give up.");
+                quoteslist.add(m17);
+
+                ModalClassQuotes m18 = new ModalClassQuotes();
+                m18.setQuotes("Prayer does not change God, but it changes him who prays.");
+                quoteslist.add(m18);
+
+                ModalClassQuotes m19 = new ModalClassQuotes();
+                m19.setQuotes("“If we find ourselves with a desire that nothing in this world can satisfy, the most probable explanation is that we were made for another world.”");
+                quoteslist.add(m19);
+
+                ModalClassQuotes m20 = new ModalClassQuotes();
+                m20.setQuotes("“And now these three remain: faith, hope and love. But the greatest of these is love.”");
+                quoteslist.add(m20);
+
+
+            }
+            else if (title.equals("Gratitude"))
+            {
+                ModalClassQuotes m1 = new ModalClassQuotes();
+                m1.setQuotes("I am happy because I'm grateful. I choose to be grateful. That gratitude allows me to be happy.");
+                quoteslist.add(m1);
+
+                ModalClassQuotes m2 = new ModalClassQuotes();
+                m2.setQuotes("Always have an attitude of gratitude.");
+                quoteslist.add(m2);
+
+                ModalClassQuotes m3 = new ModalClassQuotes();
+                m3.setQuotes("As we express our gratitude, we must never forget that the highest appreciation is not to utter words, but to live by them.");
+                quoteslist.add(m3);
+
+                ModalClassQuotes m4 = new ModalClassQuotes();
+                m4.setQuotes("We learned about gratitude and humility - that so many people had a hand in our success.");
+                quoteslist.add(m4);
+
+                ModalClassQuotes m5 = new ModalClassQuotes();
+                m5.setQuotes("Everything we do should be a result of our gratitude for what God has done for us.");
+                quoteslist.add(m5);
+
+                ModalClassQuotes m6 = new ModalClassQuotes();
+                m6.setQuotes("Gratitude is riches. Complaint is poverty.");
+                quoteslist.add(m6);
+
+                ModalClassQuotes m7 = new ModalClassQuotes();
+                m7.setQuotes("I think gratitude is a big thing. It puts you in a place where you’re humble.");
+                quoteslist.add(m7);
+
+                ModalClassQuotes m8 = new ModalClassQuotes();
+                m8.setQuotes("This is a wonderful day. I have never seen this one before.");
+                quoteslist.add(m8);
+
+                ModalClassQuotes m9 = new ModalClassQuotes();
+                m9.setQuotes("When we focus on our gratitude, the tide of disappointment goes out and the tide of love rushes in.");
+                quoteslist.add(m9);
+
+                ModalClassQuotes m10 = new ModalClassQuotes();
+                m10.setQuotes("I awoke this morning with devout thanksgiving for my friends, the old and the new.");
+                quoteslist.add(m10);
+
+                ModalClassQuotes m11 = new ModalClassQuotes();
+                m11.setQuotes("Appreciation is a wonderful thing. It makes what is excellent in others belong to us as well.");
+                quoteslist.add(m11);
+
+                ModalClassQuotes m12 = new ModalClassQuotes();
+                m12.setQuotes("No duty is more urgent than giving thanks.");
+                quoteslist.add(m12);
+
+                ModalClassQuotes m13 = new ModalClassQuotes();
+                m13.setQuotes("When I started counting my blessings, my whole life turned around.");
+                quoteslist.add(m13);
+
+                ModalClassQuotes m14 = new ModalClassQuotes();
+                m14.setQuotes("Enjoy the little things, for one day you may look back and realize they were the big things.");
+                quoteslist.add(m14);
+
+                ModalClassQuotes m15 = new ModalClassQuotes();
+                m15.setQuotes("Enough is a feast.");
+                quoteslist.add(m15);
+
+                ModalClassQuotes m16 = new ModalClassQuotes();
+                m16.setQuotes("Gratitude turns what we have into enough, and more. It turns denial into acceptance, chaos into order, confusion into clarity...it makes sense of our past, brings peace for today, and creates a vision for tomorrow.");
+                quoteslist.add(m16);
+
+                ModalClassQuotes m17 = new ModalClassQuotes();
+                m17.setQuotes("The heart that gives thanks is a happy one, for we cannot feel thankful and unhappy at the same time.");
+                quoteslist.add(m17);
+
+                ModalClassQuotes m18 = new ModalClassQuotes();
+                m18.setQuotes("Piglet noticed that even though he had a Very Small Heart, it could hold a rather large amount of Gratitude.");
+                quoteslist.add(m18);
+
+                ModalClassQuotes m19 = new ModalClassQuotes();
+                m19.setQuotes("Wear gratitude like a cloak, and it will feed every corner of your life.");
+                quoteslist.add(m19);
+
+                ModalClassQuotes m20 = new ModalClassQuotes();
+                m20.setQuotes("Let us be grateful to the people who make us happy; they are the charming gardeners who make our souls blossom.");
                 quoteslist.add(m20);
 
 

@@ -6,6 +6,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.Window;
 import android.widget.Toast;
 
 import java.util.ArrayList;
@@ -22,6 +23,11 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         initview();
+
+        //navigation or status bar colour change code
+
+        Window w = this.getWindow();
+        w.setStatusBarColor(getColor(R.color.black));
 
     }
 
@@ -55,12 +61,12 @@ public class MainActivity extends AppCompatActivity {
 
         Modal m6 = new Modal();
         m6.setQuotesName("Friendship");
-        m6.setQuotesImg(R.drawable.life);
+        m6.setQuotesImg(R.drawable.friend);
         arrayList.add(m6);
 
         Modal m7 = new Modal();
         m7.setQuotesName("Life");
-        m7.setQuotesImg(R.drawable.happy);
+        m7.setQuotesImg(R.drawable.life);
         arrayList.add(m7);
 
         Modal m8 = new Modal();
@@ -102,6 +108,82 @@ public class MainActivity extends AppCompatActivity {
         m15.setQuotesName("Music");
         m15.setQuotesImg(R.drawable.music);
         arrayList.add(m15);
+
+        Modal m16 = new Modal();
+        m15.setQuotesName("Funny");
+        m15.setQuotesImg(R.drawable.funny);
+        arrayList.add(m16);
+
+        Modal m17 = new Modal();
+        m15.setQuotesName("Leadership");
+        m15.setQuotesImg(R.drawable.leadership);
+        arrayList.add(m17);
+
+        Modal m18 = new Modal();
+        m15.setQuotesName("Cousins");
+        m15.setQuotesImg(R.drawable.cousins);
+        arrayList.add(m18);
+
+        Modal m19 = new Modal();
+        m15.setQuotesName("God");
+        m15.setQuotesImg(R.drawable.god);
+        arrayList.add(m19);
+
+        Modal m20 = new Modal();
+        m15.setQuotesName("Gratitude");
+        m15.setQuotesImg(R.drawable.gratitude);
+        arrayList.add(m20);
+
+//        Modal m21 = new Modal();
+//        m15.setQuotesName("About Change");
+//        m15.setQuotesImg(R.drawable.music);
+//        arrayList.add(m21);
+//
+//        Modal m22 = new Modal();
+//        m15.setQuotesName("Women");
+//        m15.setQuotesImg(R.drawable.music);
+//        arrayList.add(m22);
+//
+//        Modal m23 = new Modal();
+//        m15.setQuotesName("Inspirational");
+//        m15.setQuotesImg(R.drawable.music);
+//        arrayList.add(m23);
+//
+//        Modal m24 = new Modal();
+//        m15.setQuotesName("Believe");
+//        m15.setQuotesImg(R.drawable.music);
+//        arrayList.add(m24);
+//
+//        Modal m25 = new Modal();
+//        m15.setQuotesName("Experience");
+//        m15.setQuotesImg(R.drawable.music);
+//        arrayList.add(m25);
+//
+//        Modal m26 = new Modal();
+//        m15.setQuotesName("Failure");
+//        m15.setQuotesImg(R.drawable.music);
+//        arrayList.add(m26);
+//
+//        Modal m27 = new Modal();
+//        m15.setQuotesName("Inspirational");
+//        m15.setQuotesImg(R.drawable.music);
+//        arrayList.add(m27);
+//
+//        Modal m28 = new Modal();
+//        m15.setQuotesName("Possessive");
+//        m15.setQuotesImg(R.drawable.music);
+//        arrayList.add(m28);
+//
+//        Modal m29 = new Modal();
+//        m15.setQuotesName("Reading");
+//        m15.setQuotesImg(R.drawable.music);
+//        arrayList.add(m29);
+//
+//        Modal m30 = new Modal();
+//        m15.setQuotesName("Strength");
+//        m15.setQuotesImg(R.drawable.music);
+//        arrayList.add(m30);
+
 
         QuotesCategoryInterface quotesCategoryInterface = new QuotesCategoryInterface() {
             @Override
