@@ -1730,7 +1730,342 @@ public class QuotesActivity extends AppCompatActivity {
 
 
             }
+            else if (title.equals("About Change"))
+            {
+                ModalClassQuotes m1 = new ModalClassQuotes();
+                m1.setQuotes("Change is painful, but nothing is as painful as staying stuck somewhere you don't belong.");
+                quoteslist.add(m1);
 
+                ModalClassQuotes m2 = new ModalClassQuotes();
+                m2.setQuotes("The moment of change is the only poem.");
+                quoteslist.add(m2);
+
+                ModalClassQuotes m3 = new ModalClassQuotes();
+                m3.setQuotes("The changes we dread most may contain our salvation.");
+                quoteslist.add(m3);
+
+                ModalClassQuotes m4 = new ModalClassQuotes();
+                m4.setQuotes("You never change your life until you step out of your comfort zone; change begins at the end of your comfort zone.");
+                quoteslist.add(m4);
+
+                ModalClassQuotes m5 = new ModalClassQuotes();
+                m5.setQuotes("The only way to make sense out of change is to plunge into it, move with it and join the dance.");
+                quoteslist.add(m5);
+
+                ModalClassQuotes m6 = new ModalClassQuotes();
+                m6.setQuotes("Moving doesn't change who you are. It only changes the view outside your window.");
+                quoteslist.add(m6);
+
+                ModalClassQuotes m7 = new ModalClassQuotes();
+                m7.setQuotes("The truth is, unless you let go, unless you forgive yourself, unless you realize that the situation is over, you cannot move forward.");
+                quoteslist.add(m7);
+
+                ModalClassQuotes m8 = new ModalClassQuotes();
+                m8.setQuotes("If you don't like something, change it. If you can't change it, change your attitude.");
+                quoteslist.add(m8);
+
+                ModalClassQuotes m9 = new ModalClassQuotes();
+                m9.setQuotes("All things are difficult before they are easy.");
+                quoteslist.add(m9);
+
+                ModalClassQuotes m10 = new ModalClassQuotes();
+                m10.setQuotes("Growth and comfort do not coexist.");
+                quoteslist.add(m10);
+
+                ModalClassQuotes m11 = new ModalClassQuotes();
+                m11.setQuotes("The people who are crazy enough to think they can change the world are the ones who do.");
+                quoteslist.add(m11);
+
+                ModalClassQuotes m12 = new ModalClassQuotes();
+                m12.setQuotes("Change is inevitable. Growth is optional.");
+                quoteslist.add(m12);
+
+                ModalClassQuotes m13 = new ModalClassQuotes();
+                m13.setQuotes("Courage is the power to let go of the familiar.");
+                quoteslist.add(m13);
+
+                ModalClassQuotes m14 = new ModalClassQuotes();
+                m14.setQuotes("Time may change me, but I can't trace time.");
+                quoteslist.add(m14);
+
+                ModalClassQuotes m15 = new ModalClassQuotes();
+                m15.setQuotes("Any change, even a change for the better, is always accompanied by discomforts.");
+                quoteslist.add(m15);
+
+                ModalClassQuotes m16 = new ModalClassQuotes();
+                m16.setQuotes("Change is the law of life. And those who look only to the past or present are certain to miss the future.");
+                quoteslist.add(m16);
+
+                ModalClassQuotes m17 = new ModalClassQuotes();
+                m17.setQuotes("I don't know that love changes. People change. Circumstances change.");
+                quoteslist.add(m17);
+
+                ModalClassQuotes m18 = new ModalClassQuotes();
+                m18.setQuotes("Dreams are the seeds of change. Nothing ever grows without a seed, and nothing ever changes without a dream.");
+                quoteslist.add(m18);
+
+                ModalClassQuotes m19 = new ModalClassQuotes();
+                m19.setQuotes("They always say time changes things, but you actually have to change them yourself.");
+                quoteslist.add(m19);
+
+                ModalClassQuotes m20 = new ModalClassQuotes();
+                m20.setQuotes("We cannot change anything until we accept it. Condemnation does not liberate, it oppresses.");
+                quoteslist.add(m20);
+
+
+            }
+            else if (title.equals("Women"))
+            {
+                ModalClassQuotes m1 = new ModalClassQuotes();
+                m1.setQuotes("If you can dance and be free and be embarrassed, you can rule the world.");
+                quoteslist.add(m1);
+
+                ModalClassQuotes m2 = new ModalClassQuotes();
+                m2.setQuotes("“I believe in being strong when everything seems to be going wrong. I believe that happy girls are the prettiest girls. I believe that tomorrow is another day, and I believe in miracles.”");
+                quoteslist.add(m2);
+
+                ModalClassQuotes m3 = new ModalClassQuotes();
+                m3.setQuotes("A girl should be two things: who and what she wants.");
+                quoteslist.add(m3);
+
+                ModalClassQuotes m4 = new ModalClassQuotes();
+                m4.setQuotes("Ignore the glass ceiling and do your work. If you’re focusing on the glass ceiling, focusing on what you don’t have, focusing on the limitations, then you will be limited.");
+                quoteslist.add(m4);
+
+                ModalClassQuotes m5 = new ModalClassQuotes();
+                m5.setQuotes("The most alluring thing a woman can have is confidence.");
+                quoteslist.add(m5);
+
+                ModalClassQuotes m6 = new ModalClassQuotes();
+                m6.setQuotes("I always wanted to be a femme fatale. Even when I was a young girl, I never really wanted to be a girl. I wanted to be a woman.");
+                quoteslist.add(m6);
+
+                ModalClassQuotes m7 = new ModalClassQuotes();
+                m7.setQuotes("Champions keep playing until they get it right.");
+                quoteslist.add(m7);
+
+                ModalClassQuotes m8 = new ModalClassQuotes();
+                m8.setQuotes("Females are the most beautiful, gorgeous creatures in the whole world. And I think that we are gorgeous no matter what size we are.");
+                quoteslist.add(m8);
+
+                ModalClassQuotes m9 = new ModalClassQuotes();
+                m9.setQuotes("Women must try to do things as men have tried. When they fail, their failure must be but a challenge to others.");
+                quoteslist.add(m9);
+
+                ModalClassQuotes m10 = new ModalClassQuotes();
+                m10.setQuotes("Women are the real architects of society.");
+                quoteslist.add(m10);
+
+                ModalClassQuotes m11 = new ModalClassQuotes();
+                m11.setQuotes("Strong women don’t have ‘attitudes’, we have standards.");
+                quoteslist.add(m11);
+
+                ModalClassQuotes m12 = new ModalClassQuotes();
+                m12.setQuotes("I am not free while any woman is unfree, even when her shackles are very different from my own.");
+                quoteslist.add(m12);
+
+                ModalClassQuotes m13 = new ModalClassQuotes();
+                m13.setQuotes("If you want something said, ask a man; if you want something done, ask a woman.");
+                quoteslist.add(m13);
+
+                ModalClassQuotes m14 = new ModalClassQuotes();
+                m14.setQuotes("If your actions create a legacy that inspires others to dream more, learn more, do more and become more, then, you are an excellent leader.");
+                quoteslist.add(m14);
+
+                ModalClassQuotes m15 = new ModalClassQuotes();
+                m15.setQuotes("Women have discovered that they cannot rely on men’s chivalry to give them justice.");
+                quoteslist.add(m15);
+
+                ModalClassQuotes m16 = new ModalClassQuotes();
+                m16.setQuotes("I encourage women to step up. Don’t wait for somebody to ask you.");
+                quoteslist.add(m16);
+
+                ModalClassQuotes m17 = new ModalClassQuotes();
+                m17.setQuotes("Above all, be the heroine of your life, not the victim.");
+                quoteslist.add(m17);
+
+                ModalClassQuotes m18 = new ModalClassQuotes();
+                m18.setQuotes("Women that believe in each other can survive anything. Women who believe in each other create armies that will win kingdoms and wars.");
+                quoteslist.add(m18);
+
+                ModalClassQuotes m19 = new ModalClassQuotes();
+                m19.setQuotes("A woman with a voice is, by definition, a strong woman. But the search to find that voice can be remarkably difficult.");
+                quoteslist.add(m19);
+
+                ModalClassQuotes m20 = new ModalClassQuotes();
+                m20.setQuotes("A woman with a voice is, by definition, a strong woman.");
+                quoteslist.add(m20);
+
+
+            }
+            else if (title.equals("Inspirational"))
+            {
+                ModalClassQuotes m1 = new ModalClassQuotes();
+                m1.setQuotes("“You’ve gotta dance like there’s nobody watching, love like you’ll never be hurt, sing like there’s nobody listening, and live like it’s heaven on earth.” ");
+                quoteslist.add(m1);
+
+                ModalClassQuotes m2 = new ModalClassQuotes();
+                m2.setQuotes("Everything you can imagine is real.");
+                quoteslist.add(m2);
+
+                ModalClassQuotes m3 = new ModalClassQuotes();
+                m3.setQuotes("Smart people learn from everything and everyone, average people from their experiences, stupid people already have all the answers.");
+                quoteslist.add(m3);
+
+                ModalClassQuotes m4 = new ModalClassQuotes();
+                m4.setQuotes("Happiness is not something ready made. It comes from your own actions.");
+                quoteslist.add(m4);
+
+                ModalClassQuotes m5 = new ModalClassQuotes();
+                m5.setQuotes("Impossible is just an opinion.");
+                quoteslist.add(m5);
+
+                ModalClassQuotes m6 = new ModalClassQuotes();
+                m6.setQuotes("Magic is believing in yourself. If you can make that happen, you can make anything happen.");
+                quoteslist.add(m6);
+
+                ModalClassQuotes m7 = new ModalClassQuotes();
+                m7.setQuotes("Don’t be afraid to give up the good to go for the great.");
+                quoteslist.add(m7);
+
+                ModalClassQuotes m8 = new ModalClassQuotes();
+                m8.setQuotes("“It was a Monday and they walked on a tightrope to the sun.”");
+                quoteslist.add(m8);
+
+                ModalClassQuotes m9 = new ModalClassQuotes();
+                m9.setQuotes("All Motivation Mondays need are a little more coffee and a lot more mascara.");
+                quoteslist.add(m9);
+
+                ModalClassQuotes m10 = new ModalClassQuotes();
+                m10.setQuotes("No one is to blame for your future situation but yourself. If you want to be successful, then become ‘Successful.");
+                quoteslist.add(m10);
+
+                ModalClassQuotes m11 = new ModalClassQuotes();
+                m11.setQuotes("Everything comes to him who hustles while he waits.");
+                quoteslist.add(m11);
+
+                ModalClassQuotes m12 = new ModalClassQuotes();
+                m12.setQuotes("Work like there is someone working 24 hours a day to take it away from you.");
+                quoteslist.add(m12);
+
+                ModalClassQuotes m13 = new ModalClassQuotes();
+                m13.setQuotes("I always did something I was a little not ready to do. I think that’s how you grow. When there’s that moment of ‘Wow, I’m not really sure I can do this’ and you push through those moments, that’s when you have a breakthrough.");
+                quoteslist.add(m13);
+
+                ModalClassQuotes m14 = new ModalClassQuotes();
+                m14.setQuotes("Very often, a change of self is needed more than a change of scene.");
+                quoteslist.add(m14);
+
+                ModalClassQuotes m15 = new ModalClassQuotes();
+                m15.setQuotes("If you’re offered a seat on a rocket ship, don’t ask what seat! Just get on.");
+                quoteslist.add(m15);
+
+                ModalClassQuotes m16 = new ModalClassQuotes();
+                m16.setQuotes("Keep your eyes on the stars, and your feet on the ground.");
+                quoteslist.add(m16);
+
+                ModalClassQuotes m17 = new ModalClassQuotes();
+                m17.setQuotes("Don’t be pushed around by the fears in your mind. Be led by the dreams in your heart.");
+                quoteslist.add(m17);
+
+                ModalClassQuotes m18 = new ModalClassQuotes();
+                m18.setQuotes("The only difference between ordinary and extraordinary is that little extra.");
+                quoteslist.add(m18);
+
+                ModalClassQuotes m19 = new ModalClassQuotes();
+                m19.setQuotes("Opportunity is missed by most people because it is dressed in overalls and looks like work.");
+                quoteslist.add(m19);
+
+                ModalClassQuotes m20 = new ModalClassQuotes();
+                m20.setQuotes("If you cannot do great things, do small things in a great way.");
+                quoteslist.add(m20);
+
+
+            }
+            else if (title.equals("Believe"))
+            {
+                ModalClassQuotes m1 = new ModalClassQuotes();
+                m1.setQuotes("Believe in Your Heart Believe in your heart that you're meant to live a life full of passion, purpose, magic and miracles.");
+                quoteslist.add(m1);
+
+                ModalClassQuotes m2 = new ModalClassQuotes();
+                m2.setQuotes("Be brave to stand for what you believe in even if you stand alone.");
+                quoteslist.add(m2);
+
+                ModalClassQuotes m3 = new ModalClassQuotes();
+                m3.setQuotes("Great things happen to those who don't stop believing, trying, learning, and being grateful.");
+                quoteslist.add(m3);
+
+                ModalClassQuotes m4 = new ModalClassQuotes();
+                m4.setQuotes("Believe in your infinite potential. Your only limitations are those you set upon yourself.");
+                quoteslist.add(m4);
+
+                ModalClassQuotes m5 = new ModalClassQuotes();
+                m5.setQuotes("If we don't believe in freedom of expression for people we despise, we don't believe in it at all");
+                quoteslist.add(m5);
+
+                ModalClassQuotes m6 = new ModalClassQuotes();
+                m6.setQuotes("If you believe very strongly in something, stand up and fight for it.");
+                quoteslist.add(m6);
+
+                ModalClassQuotes m7 = new ModalClassQuotes();
+                m7.setQuotes("The liar's punishment is, not in the least that he is not believed, but that he cannot believe anyone else.");
+                quoteslist.add(m7);
+
+                ModalClassQuotes m8 = new ModalClassQuotes();
+                m8.setQuotes("“Don’t let others tell you what you can’t do. Don't let the limitations of others limit your vision. If you can remove your self-doubt and believe in yourself, you can achieve what you never thought possible.”");
+                quoteslist.add(m8);
+
+                ModalClassQuotes m9 = new ModalClassQuotes();
+                m9.setQuotes("If you don’t give up on something you truly believe in, you will find a way.");
+                quoteslist.add(m9);
+
+                ModalClassQuotes m10 = new ModalClassQuotes();
+                m10.setQuotes("Be believing, be happy, don't get discouraged. Things will work out.");
+                quoteslist.add(m10);
+
+                ModalClassQuotes m11 = new ModalClassQuotes();
+                m11.setQuotes("Dance. Smile. Giggle. Marvel. TRUST. HOPE. LOVE. WISH. BELIEVE. Most of all, enjoy every moment of the journey, and appreciate where you are at this moment instead of always focusing on how far you have to go.");
+                quoteslist.add(m11);
+
+                ModalClassQuotes m12 = new ModalClassQuotes();
+                m12.setQuotes("Beliefs are choices. First you choose your beliefs. Then your beliefs affect your choices.");
+                quoteslist.add(m12);
+
+                ModalClassQuotes m13 = new ModalClassQuotes();
+                m13.setQuotes("My father gave me the greatest gift anyone could give another person, he believed in me.");
+                quoteslist.add(m13);
+
+                ModalClassQuotes m14 = new ModalClassQuotes();
+                m14.setQuotes("It's what you choose to believe that makes you the person you are.");
+                quoteslist.add(m14);
+
+                ModalClassQuotes m15 = new ModalClassQuotes();
+                m15.setQuotes("Believe in your infinite potential. Your only limitations are those you set upon yourself.");
+                quoteslist.add(m15);
+
+                ModalClassQuotes m16 = new ModalClassQuotes();
+                m16.setQuotes("There is strange comfort in knowing that no matter what happens today, the Sun will rise again tomorrow.");
+                quoteslist.add(m16);
+
+                ModalClassQuotes m17 = new ModalClassQuotes();
+                m17.setQuotes("If you believe you can, you might. If you know you can, you will.");
+                quoteslist.add(m17);
+
+                ModalClassQuotes m18 = new ModalClassQuotes();
+                m18.setQuotes("The future belongs to those who believe in the beauty of their dreams.");
+                quoteslist.add(m18);
+
+                ModalClassQuotes m19 = new ModalClassQuotes();
+                m19.setQuotes("The futur belongs to those who believe in the beauty pf their dreams.");
+                quoteslist.add(m19);
+
+                ModalClassQuotes m20 = new ModalClassQuotes();
+                m20.setQuotes("Great minds discuss ideas; average minds discuss events; small minds discuss people.");
+                quoteslist.add(m20);
+
+
+            }
 
         }
 

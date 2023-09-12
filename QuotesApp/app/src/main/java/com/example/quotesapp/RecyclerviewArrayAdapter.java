@@ -11,8 +11,9 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.ArrayList;
 
-public class RecyclerviewArrayAdapter extends RecyclerView.Adapter<RecyclerviewArrayAdapter.MyViewHolder> {
 
+
+public class RecyclerviewArrayAdapter extends RecyclerView.Adapter<RecyclerviewArrayAdapter.MyViewHolder> {
     MainActivity mainActivity;
     ArrayList<Modal> arrayList;
     QuotesCategoryInterface quotesCategoryInterface;
